@@ -23,7 +23,7 @@ INSTALL_LOCATION="johntheripper"
 DEBIAN="git libgmp3-dev git lzip gcc-multilib make m4 mingw-w64"
 
 # COMMANDS TO RUN AFTER
-AFTER_COMMANDS="cd {INSTALL_LOCATION}src,./configure,make"
+AFTER_COMMANDS="cd {INSTALL_LOCATION}src,./configure,make,cp run/john ."
 
 
 # DONT RUN AFTER COMMANDS ON UPDATE
